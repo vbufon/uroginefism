@@ -2,7 +2,7 @@ body {
     /* Mudar cor do fundo */
     background-color: #82bbbd!important;
     /* Mudar família da fonte */
-    font-family:'Montserrat', sans-serif!important;
+    font-family:"GALANO GROTESQUE" !important;
     /* Mudar cor da fonte */
     color: #ffffff!important;
     /* Não alterar */
@@ -39,6 +39,10 @@ body {
     line-height: 2.5rem;;
 }
 
+.sub-title {
+    font-size: 12px;
+}
+
 /* LINKS*/
 .links {
     margin-bottom: 40px;
@@ -67,6 +71,21 @@ body {
     text-decoration: none;
 }
 
+.shake {
+	animation: shake-animation 4.72s ease
+}
+
+@keyframes shake-animation {
+    0% { transform:translate(0,0) }
+    1.78571% { transform:translate(5px,0) }
+    3.57143% { transform:translate(0,0) }
+    5.35714% { transform:translate(5px,0) }
+    7.14286% { transform:translate(0,0) }
+    8.92857% { transform:translate(5px,0) }
+    10.71429% { transform:translate(0,0) }
+    100% { transform:translate(0,0) }
+ }
+
 .botao:hover {
     /* Cor do texto e fundo - Quando tem link */
     color: #ffffff;
@@ -94,6 +113,12 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 5px;
+}
+.social ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* FOOTER */
